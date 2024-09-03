@@ -48,7 +48,7 @@ def main():
                 sys.exit()
             for s in shots:
                 if(s.collisionCheck(a) == True):
-                    a.kill()
+                    a.split()
                     s.kill()
              
         screen.fill("black")
